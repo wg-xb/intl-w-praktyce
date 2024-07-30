@@ -1,0 +1,39 @@
+import { LanguageSelector } from '../components/languageSelector/LanguageSelector.svelte';
+
+# Intl w praktyce
+
+## Co to ten Intl? > The Intl namespace object contains
+
+<b>several constructors</b> as well as functionality common to the internationalization
+constructors and other language sensitive functions. Collectively, they comprise
+the ECMAScript Internationalization API, which
+<b>
+  provides language sensitive string comparison, number formatting, date and
+  time formatting, and more.
+</b>
+
+<cite>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl"> MDN </a>
+</cite>
+
+Globalny obiekt języka JavaScript, zawierający konstruktory i funkcje pomocnicze, które razem tworzą ECMAScript Internationalization API.
+API to umożliwia:
+
+- porównywanie stringów z uwzględnieniem języka
+- formatowanie
+  wartości liczbowych (z jednostkami, w tym walut)
+- formatowanie daty i czasu
+- i inne
+
+### Wsparcie w przeglądarkach
+
+[caniuse](https://caniuse.com/mdn-javascript_builtins_intl)
+
+## Przykłady
+
+### Intl.DisplayNames
+
+Przykład #1 - wybór języka:
+
+<LanguageSelector />
